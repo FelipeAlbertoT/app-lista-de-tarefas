@@ -12,6 +12,8 @@
 		C18D8125204DB4AF00A301BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C18D8123204DB4AF00A301BB /* Main.storyboard */; };
 		C18D8127204DB4AF00A301BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C18D8126204DB4AF00A301BB /* Assets.xcassets */; };
 		C18D812A204DB4AF00A301BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C18D8128204DB4AF00A301BB /* LaunchScreen.storyboard */; };
+		C18D8132204DB9CC00A301BB /* AddTarefaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18D8131204DB9CC00A301BB /* AddTarefaViewController.swift */; };
+		C18D8134204DBF6900A301BB /* TarefaUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18D8133204DBF6900A301BB /* TarefaUserDefaults.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		C18D8126204DB4AF00A301BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C18D8129204DB4AF00A301BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C18D812B204DB4AF00A301BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C18D8131204DB9CC00A301BB /* AddTarefaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTarefaViewController.swift; sourceTree = "<group>"; };
+		C18D8133204DBF6900A301BB /* TarefaUserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TarefaUserDefaults.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 			isa = PBXGroup;
 			children = (
 				C18D811F204DB4AF00A301BB /* AppDelegate.swift */,
+				C18D8131204DB9CC00A301BB /* AddTarefaViewController.swift */,
+				C18D8133204DBF6900A301BB /* TarefaUserDefaults.swift */,
 				C18D8121204DB4AF00A301BB /* ViewController.swift */,
 				C18D8123204DB4AF00A301BB /* Main.storyboard */,
 				C18D8126204DB4AF00A301BB /* Assets.xcassets */,
@@ -137,6 +143,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C18D8122204DB4AF00A301BB /* ViewController.swift in Sources */,
+				C18D8134204DBF6900A301BB /* TarefaUserDefaults.swift in Sources */,
+				C18D8132204DB9CC00A301BB /* AddTarefaViewController.swift in Sources */,
 				C18D8120204DB4AF00A301BB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
